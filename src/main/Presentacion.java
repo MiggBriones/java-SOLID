@@ -2,8 +2,11 @@ package main;
 
 public class Presentacion {
 	
-	// Imprimimos el objeto
-	public void imprimir(Rectangulo rectangulo) {
-		System.out.println(rectangulo);
+	public void area(Rectangulo rectangulo) {
+		System.out.println(rectangulo.getBase() * rectangulo.getAltura());
+	}
+	
+	public void area(Triangulo triangulo) {
+		System.out.println( (triangulo.getBase() * triangulo.getAltura() ) / 2 );
 	}
 }
