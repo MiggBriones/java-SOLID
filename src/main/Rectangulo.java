@@ -33,4 +33,9 @@ public class Rectangulo {
 	public float area() {
 		return this.getBase() * this.getAltura();
 	}
+	
+	// Imprimimos el objeto
+	public void imprimir() {
+		System.out.println(this);
+	}
 }
